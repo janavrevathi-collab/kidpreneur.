@@ -1,0 +1,15 @@
+body{font-family:Segoe UI,Arial,sans-serif;background:#f4f8fb;color:#222;margin:0;padding:16px}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#2b6777;color:#fff;border-radius:8px}
+.card{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06);margin:12px 0}
+.hero{padding:24px;text-align:center;background:#c8d8e4;border-radius:10px;margin:12px 0}
+input,textarea,button{font-size:15px;padding:10px;border-radius:8px;border:1px solid #ccc}
+input,textarea{width:100%;margin:8px 0}
+button{background:#2b6777;color:#fff;border:none;cursor:pointer;border-radius:8px}
+button:hover{opacity:0.95}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.vote-btn{background:#ffd166;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+.row{display:flex;gap:8px;justify-content:center;margin-top:8px}
+.muted{color:#666;margin-top:8px}
+#auth{max-width:420px;margin:28px auto;text-align:center}
+#app{max-width:1100px;margin:12px auto}
+.card h3{margin-top:0}
